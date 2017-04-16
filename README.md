@@ -13,5 +13,5 @@ ENVBoot allows to set up testing environment quickly with qemu and debian images
 git clone https://github.com/lucyoa/envboot
 cd envboot
 ./install.sh
-./launch armle
+./launch.sh armle
 ```
