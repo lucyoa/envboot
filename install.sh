@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Installing Qemu"
+apt-get install -y qemu-system-arm qemu-system-mips qemu-system-mipsel
+
 echo "Downloading & setting ARMLE Debian Wheezy"
 mkdir armle
 wget https://people.debian.org/~aurel32/qemu/armel/debian_wheezy_armel_standard.qcow2 -O armle/debian_wheezy_armel_standard.qcow2
