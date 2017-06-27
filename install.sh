@@ -19,6 +19,7 @@ mkdir mipsle
 wget https://people.debian.org/~aurel32/qemu/mipsel/debian_wheezy_mipsel_standard.qcow2 -O mipsle/debian_wheezy_mipsel_standard.qcow2
 wget https://people.debian.org/~aurel32/qemu/mipsel/vmlinux-3.2.0-4-4kc-malta -O mipsle/vmlinux-3.2.0-4-4kc-malta
 
+echo "Downloading & setting AARCH64 (arm64) Ubuntu Trusty Tahr"
 mkdir aarch64
 wget https://cloud-images.ubuntu.com/trusty/current/unpacked/trusty-server-cloudimg-arm64-vmlinuz-generic -O aarch64/trusty-server-cloudimg-arm64-vmlinuz-generic
 wget https://cloud-images.ubuntu.com/trusty/current/trusty-server-cloudimg-arm64-disk1.img -O aarch64/trusty-server-cloudimg-arm64-disk1.img
